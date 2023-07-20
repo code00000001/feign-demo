@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: feign
+
+server:
+  port: 8081
+
+feign:
+  url: http://localhost:8110 #远程调用的feign接口url
